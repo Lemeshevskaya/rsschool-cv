@@ -1,6 +1,6 @@
 # Lemeshevskaya Olga  
 
-![phoro](https://github.com/Lemeshevskaya/rsschool-cv/blob/gh-pages/foto_for_summary.jpg)
+![phoro](/foto_for_summary.jpg)
 
 ***
 
