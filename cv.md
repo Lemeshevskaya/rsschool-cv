@@ -9,6 +9,7 @@
 E-mail: [birtochka@gmail.com](mailto:birtochka@gmail.com)  
 Phone: [+1 (206) 4715131](tel:+12064715131)  
 Skype: [Lemeshevskaya Olga](https://join.skype.com/invite/BACgRTypv0E1)  
+Discord: Olga (@Lemeshevskaya)
 
 ***  
 
