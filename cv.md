@@ -1,6 +1,6 @@
 # Lemeshevskaya Olga  
 
-![phoro](/foto_for_summary.jpg)
+![phoro](/img/foto_for_summary.jpg)
 
 ***
 
