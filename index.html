@@ -2,90 +2,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Summary Lemeshevskaya Olga</title>
 </head>
 <body>
 <div class="wrapper">
-  <div class="content">
-    <header class="page-header flex">
-      <div class="page-header-inf flex">
-        <h1 class="page-header-name">Lemeshevskaya Olga</h1>
-        <p class="page-header-text page-header-text-description">student at
-          <a href="https://rs.school/" target="_blank">The Rolling Scopes School</a>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item nav__item--current">
+                <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#summary">Summary</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#skills">Skills</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#code">Code</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#projects">Projects</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#education">Education</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#language">Language</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <header class="header">
+            <section class="about">
+                <div class="about__item">
+                    <h1 class="about__title">Lemeshevskaya Olga</h1>
+                    <p class="about__text">student at
+                        <a href="https://rs.school/" target="_blank">The Rolling Scopes School</a>
+                    </p>
+                </div>
+                <div class="about__item user">
+                    <img class="user__img" src="./assets/img/foto_for_summary.jpg" width="200" alt="Photo Lemeshevskaya Olga">
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <h2 class="contacts__title">Contacts:</h2>
+                <ul class="contacts__list">
+                    <li><a class="contacts__item" href="mailto:birtochka@gmail.com" target="_blank">birtochka@gmail.com</a></li>
+                    <li><a class="contacts__item" href="tel:%2B1206+471+51+31">+1206 471 51 31</a></li>
+                    <li><a class="contacts__item" href="https://join.skype.com/invite/BACgRTypv0E1" target="_blank">Skype</a></li>
+                </ul> 
+            </section>
+        </header>
+        <section class="summary" id="summary">
+        <h2 class="summary__title">Summary:</h2>
+        <p class="summary__text">Aspiring Front-End Developer with a strong commitment to achieving excellence in web development. 
+            Eager learner dedicated to acquiring new skills through self-study and collaboration with peers. 
+            Proven ability to practice diligently and integrate feedback effectively. Passionate about creating user-friendly interfaces that enhance user experience. 
+            Currently advancing knowledge in HTML, CSS, JavaScript, and responsive design with a proactive approach to professional growth.</p>
+        </section>
+        <section class="skills" id="skills">
+        <h2 class="skills__title">Skills:</h2>
+        <ul class="skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+            <li>GIT</li>
+            <li>JS</li>
+            <li>React</li>
+        </ul>
+        </section>
+        <section class="code"m id="code">
+        <h2 class="code__title">Code:</h2>
+        <pre class="code__text">
+            <code>
+                function reverseString(str) { 
+                    // empty string 
+                    let newString = &quot;&quot;; 
+                    for (let i = str.length - 1; i &gt;= 0; i--) { 
+                        newString += str[i]; 
+                    } 
+                    return newString; 
+                }
+            </code>
+            </pre>
+        </section>
+        <section class="projects" id="projects">
+        <h2 class="projects__title">Projects:</h2>
+            <ul class="projects__list">
+                <li><a href="https://lemeshevskaya.github.io/my_progect/" target="_blank">Ducky</a></li>
+                <li><a href="https://cv-app-heroku.herokuapp.com/" target="_blank">CV-app - React project</a></li>
+                <li><a href="https://floating-sierra-25823.herokuapp.com/" target="_blank">Instagram - React project</a></li>
+            </ul>  
+        </section>
+        <section class="education" id="education">
+        <h2 class="education__title">Education:</h2>
+        <p class="education__text">March-June 2018 - HTML, CSS, JavaScript Course - Website Development Training in
+            <a href="https://www.it-academy.by/" target="_blank">It-academy</a>
         </p>
-        <div class="contacts heading-item">
-          <h2 class="contacts-heading">Contacts:</h2>
-          <a class="contacts-item" href="mailto:birtochka@gmail.com" target="_blank">birtochka@gmail.com</a>
-          <a class="contacts-item" href="tel:%2B1206+471+51+31">+1206 471 51 31</a>
-          <a class="contacts-item" href="https://join.skype.com/invite/BACgRTypv0E1" target="_blank">Skype
-          </a>
-        </div>
-      </div>
-      <div class="page-header-img">
-        <img class="page-header-img-description" src="img/foto_for_summary.jpg" width="300"
-             alt="Photo Lemeshevskaya Olga">
-      </div>
-    </header>
-    <section class="summary">
-      <h2 class="summary-heading heading-item">Summary:</h2>
-      <p class="summary-text">Aspiring Front-End Developer with a strong commitment to achieving excellence in web development. 
-        Eager learner dedicated to acquiring new skills through self-study and collaboration with peers. 
-        Proven ability to practice diligently and integrate feedback effectively. Passionate about creating user-friendly interfaces that enhance user experience. 
-        Currently advancing knowledge in HTML, CSS, JavaScript, and responsive design with a proactive approach to professional growth.</p>
-    </section>
-    <section class="skills">
-      <h2 class="skills-heading heading-item">Skills:</h2>
-      <ul class="skills-text">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SCSS</li>
-        <li>GIT</li>
-        <li>JS</li>
-        <li>React</li>
-      </ul>
-    </section>
-    <section class="code">
-      <h2 class="code-heading heading-item">Code examples:</h2>
-      <pre class="code-text">
-          <code>
-            &lt;footer class="page-footer"&gt;
-              &lt;div class="container"&gt;
-                &lt;a class="footer-email" href="mailto:birtochka@gmail.com" target="_blank"&gt;birtochka@gmail.com
-                &lt;/a&gt;
-                &lt;a class="footer-phone" href="tel:+8029 682 90 13"&gt;+8029 682 90 13&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;/footer&gt;
-          </code>
-        </pre>
-    </section>
-    <section class="experience">
-      <h2 class="experience-heading heading-item">Experience: </h2>
-      <p class="expierence-text">These are some of my projects:</p>
-        <ul class="skills-text">
-            <li><a href="https://lemeshevskaya.github.io/my_progect/" target="_blank">Ducky</a></li>
-            <li><a href="https://cv-app-heroku.herokuapp.com/" target="_blank">CV-app - React project</a></li>
-            <li><a href="https://floating-sierra-25823.herokuapp.com/" target="_blank">Instagram - React project</a></li>
-          </ul>  
-    </section>
-    <section class="education">
-      <h2 class="education-heading heading-item">Education:</h2>
-      <p>March-June 2018 - HTML, CSS, JavaScript Course - Website Development Training in
-        <a href="https://www.it-academy.by/" target="_blank">It-academy</a>
-      </p>
-    </section>
-    <section class="language">
-      <h2 class="language-heading heading-item">English:</h2>
-      <p class="language-text">Intermediate and I keep learning english now. </p>
-    </section>
-  </div>
-  <footer class="footer">
-    <div class="footer-contacts">
-      <a class="footer-item" href="mailto:birtochka@gmail.com" target="_blank">birtochka@gmail.com</a>
-      <a class="footer-item" href="tel:%2B8029+682+90+13">+8029 682 90 13</a>
-      <a class="footer-item" href="https://join.skype.com/invite/BACgRTypv0E1" target="_blank">Skype</a>
+        </section>
+        <section class="language" id="language">
+        <h2 class="language__title">Language:</h2>
+        <p class="language__text">English - Intermediate and I keep learning english now. </p>
+        </section>
     </div>
-  </footer>
+    <footer class="footer">
+        <div class="footer__contacts">
+        <a class="footer__item" href="mailto:birtochka@gmail.com" target="_blank">birtochka@gmail.com</a>
+        <a class="footer__item" href="tel:%2B1206+471+51+31">+1206 471 51 31</a>
+        <a class="footer__item" href="https://join.skype.com/invite/BACgRTypv0E1" target="_blank">Skype</a>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
